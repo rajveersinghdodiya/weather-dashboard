@@ -4,8 +4,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # -------- CONFIGURATION --------
-API_KEY = "93dc3e6aaf747cb9ad23b7efc393f208"  # Apni OpenWeatherMap API key yaha daalo
-CITY = "Ujjain"           # City ka naam
+API_KEY =  "YOUR_API_KEY_HERE"
+
+CITY = "Ujjain"          
 URL = f"http://api.openweathermap.org/data/2.5/forecast?q={CITY}&appid={API_KEY}&units=metric"
 
 # -------- FETCHING DATA --------
@@ -64,3 +65,4 @@ plt.tight_layout()
 plt.show()
 
 print("✅ Dashboard generated successfully!")
+
